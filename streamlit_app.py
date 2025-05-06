@@ -3,7 +3,6 @@ import pickle
 import numpy as np
 import pandas as pd
 
-data = pd.read_csv("heart(2).csv")
 
 # تحميل الموديل والسكيلر
 model = pickle.load(open('svc_model.pkl', 'rb'))
